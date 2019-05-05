@@ -55,7 +55,7 @@ public class PropertyLogHandler extends AbstractMediator {
 
 	public boolean mediate(MessageContext messageContext) {
 
-		boolean isPayloadLoggingEnabled = true;
+		boolean isPayloadLoggingEnabled = false;
 
 		org.apache.axis2.context.MessageContext axis2MessageContext = ((Axis2MessageContext) messageContext)
 				.getAxis2MessageContext();
